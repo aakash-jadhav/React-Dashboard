@@ -6,7 +6,7 @@ import { AiFillDollarCircle } from "react-icons/ai";
 export default function Featured() {
   return (
     <div className="grid sm:grid-cols-12 gap-3 ">
-      <div className=" sm:col-span-6 md:col-span-3 bg-[#202028] rounded-lg p-4">
+      <div className="sm:col-span-6 md:col-span-3 bg-[#202028] rounded-lg p-4">
         <div className="p-2  bg-[#293368] inline-block items-center justify-center rounded-lg ">
           <FaShoppingBasket size={24} color="#4167ff" />
         </div>
@@ -21,7 +21,7 @@ export default function Featured() {
         </div>
       </div>
 
-      <div className=" sm:col-span-6 md:col-span-3 bg-[#202028] rounded-lg p-4">
+      <div className="sm:col-span-6 md:col-span-3 bg-[#202028] rounded-lg p-4">
         <div className="p-2  bg-[#165246] inline-block items-center justify-center rounded-lg ">
           <GiShoppingBag size={24} color="#00c98d" />
         </div>
@@ -36,7 +36,7 @@ export default function Featured() {
         </div>
       </div>
 
-      <div className=" sm:col-span-6 md:col-span-3 bg-[#202028] rounded-lg p-4">
+      <div className="sm:col-span-6 md:col-span-3 bg-[#202028] rounded-lg p-4">
         <div className="p-2  bg-[#5f3237] inline-block items-center justify-center rounded-lg ">
           <GiShoppingBag size={24} color="#f25e5e" />
         </div>
@@ -51,7 +51,7 @@ export default function Featured() {
         </div>
       </div>
 
-      <div className=" sm:col-span-6 md:col-span-3 bg-[#202028] rounded-lg p-4">
+      <div className="sm:col-span-6 md:col-span-3 bg-[#202028] rounded-lg p-4">
         <div className="p-2  bg-[#5b2a4a] inline-block items-center justify-center rounded-lg ">
           <AiFillDollarCircle size={24} color="#e9419b" />
         </div>

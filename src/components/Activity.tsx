@@ -39,9 +39,9 @@ export default function Activity() {
   } satisfies ChartConfig;
 
   return (
-    <div className="min-h-[200px] bg-[#202028] rounded-lg mt-5 p-4">
+    <div className="bg-[#202028] rounded-lg mt-5 p-4 grid grid-cols-1">
       <h1 className="text-xl font-bold">Acitivity</h1>
-      <ChartContainer config={chartConfig} className="min-h-[200px]  w-full">
+      <ChartContainer config={chartConfig} className="min-h-[250px] h-5 w-full">
         <BarChart accessibilityLayer data={chartData}>
           <CartesianGrid vertical={true} />
           <XAxis
