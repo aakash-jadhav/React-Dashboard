@@ -13,7 +13,7 @@ function App() {
     <>
       <Sidebar />
       <Navbar />
-      <main className="ml-20 my-5  ">
+      <main className="md:ml-20 my-5  ml-5">
         <h1 className="text-2xl font-semibold">Dashboard</h1>
 
         <div className="grid sm:grid-cols-12 gap-4 mt-5 mr-5">

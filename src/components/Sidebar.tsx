@@ -6,7 +6,7 @@ import { BiWalletAlt } from "react-icons/bi";
 import { IoBagCheckOutline } from "react-icons/io5";
 export default function Sidebar() {
   return (
-    <div className="fixed px-4 mt-2 bg-[#202028] h-full">
+    <div className="fixed px-4 mt-2 bg-[#202028] h-full hidden md:block">
       <PiSquaresFourFill size={30} color="#7294fe" className="cursor-pointer" />
       <div className="mt-10 flex  items-center flex-col justify-around  gap-y-8  [&>*]:cursor-pointer ">
         <IoMdHome size={24} color="#7294fe" />

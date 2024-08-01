@@ -12,7 +12,7 @@ export default function Profit() {
           3%
         </p>
       </div>
-      <div className=" flex-1 ">
+      <div className=" flex-1 sm:hidden lg:block">
         <PyChart />
       </div>
     </div>
