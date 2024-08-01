@@ -1,6 +1,5 @@
 "use client";
 
-import * as React from "react";
 import { Label, Pie, PieChart } from "recharts";
 
 import {
@@ -12,9 +11,6 @@ import {
 const chartData = [
   { goal: "Achieved", target: 70, fill: "#7195fd" },
   { goal: "Remaining", target: 30, fill: "#2a3267" },
-  // { browser: "firefox", visitors: 287, fill: "var(--color-firefox)" },
-  // { browser: "edge", visitors: 173, fill: "var(--color-edge)" },
-  // { browser: "other", visitors: 190, fill: "var(--color-other)" },
 ];
 
 const chartConfig = {
@@ -29,24 +25,10 @@ const chartConfig = {
     label: "Remaining",
     color: "hsl(var(--chart-2))",
   },
-  // firefox: {
-  //   label: "Firefox",
-  //   color: "hsl(var(--chart-3))",
-  // },
-  // edge: {
-  //   label: "Edge",
-  //   color: "hsl(var(--chart-4))",
-  // },
-  // other: {
-  //   label: "Other",
-  //   color: "hsl(var(--chart-5))",
-  // },
 } satisfies ChartConfig;
 
 export function PyChart() {
   return (
-    // <Card className="flex flex-col">
-    //   <CardContent className="flex-1 pb-0">
     <ChartContainer
       config={chartConfig}
       className="mx-auto aspect-square max-h-[120px]"
@@ -96,7 +78,5 @@ export function PyChart() {
         </Pie>
       </PieChart>
     </ChartContainer>
-    //   </CardContent>
-    // </Card>
   );
 }
