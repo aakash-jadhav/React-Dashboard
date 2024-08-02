@@ -25,7 +25,7 @@ export default function Tables() {
           <TableRow>
             <TableCell className="flex items-center  gap-2 whitespace-nowrap ">
               <Avatar className="h-5 w-5">
-                <AvatarImage src="https://github.com/shadcn.png" />
+                <AvatarImage src="https://xsgames.co/randomusers/avatar.php?g=male" />
                 <AvatarFallback>CN</AvatarFallback>
               </Avatar>
               Wade Warren
@@ -40,7 +40,7 @@ export default function Tables() {
           <TableRow>
             <TableCell className="flex items-center  gap-2 whitespace-nowrap ">
               <Avatar className="h-5 w-5">
-                <AvatarImage src="https://github.com/shadcn.png" />
+                <AvatarImage src="https://xsgames.co/randomusers/avatar.php?g=female" />
                 <AvatarFallback>CN</AvatarFallback>
               </Avatar>
               Jane Cooper
@@ -55,7 +55,7 @@ export default function Tables() {
           <TableRow>
             <TableCell className="flex items-center  gap-2 whitespace-nowrap ">
               <Avatar className="h-5 w-5">
-                <AvatarImage src="https://github.com/shadcn.png" />
+                <AvatarImage src="https://avatar.iran.liara.run/public/boy" />
                 <AvatarFallback>CN</AvatarFallback>
               </Avatar>
               Guy Hawkins
@@ -69,7 +69,7 @@ export default function Tables() {
           <TableRow>
             <TableCell className="flex items-center  gap-2 whitespace-nowrap ">
               <Avatar className="h-5 w-5">
-                <AvatarImage src="https://github.com/shadcn.png" />
+                <AvatarImage src="https://avatar.iran.liara.run/public/girl" />
                 <AvatarFallback>CN</AvatarFallback>
               </Avatar>
               Kristin Watson
@@ -84,7 +84,7 @@ export default function Tables() {
           <TableRow>
             <TableCell className="flex items-center  gap-2 whitespace-nowrap ">
               <Avatar className="h-5 w-5">
-                <AvatarImage src="https://github.com/shadcn.png" />
+                <AvatarImage src="https://avatar.iran.liara.run/public/15" />
                 <AvatarFallback>CN</AvatarFallback>
               </Avatar>
               Cody Fisher
@@ -99,7 +99,7 @@ export default function Tables() {
           <TableRow>
             <TableCell className="flex items-center  gap-2 whitespace-nowrap ">
               <Avatar className="h-5 w-5">
-                <AvatarImage src="https://github.com/shadcn.png" />
+                <AvatarImage src="https://avatar.iran.liara.run/public/62" />
                 <AvatarFallback>CN</AvatarFallback>
               </Avatar>
               Savannah Nguyen

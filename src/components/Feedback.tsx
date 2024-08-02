@@ -10,7 +10,7 @@ export default function Feedback() {
       <div className="mt-5">
         <div className="flex gap-2 ">
           <Avatar className="w-8 h-8">
-            <AvatarImage src="https://github.com/shadcn.png" />
+            <AvatarImage src="https://avatar.iran.liara.run/public/69" />
             <AvatarFallback>CN</AvatarFallback>
           </Avatar>{" "}
           <span>Jenny Wilson</span>
@@ -34,7 +34,7 @@ export default function Feedback() {
       <div>
         <div className="flex gap-2 ">
           <Avatar className="w-8 h-8">
-            <AvatarImage src="https://github.com/shadcn.png" />
+            <AvatarImage src="https://avatar.iran.liara.run/public/56" />
             <AvatarFallback>CN</AvatarFallback>
           </Avatar>{" "}
           <span>Dianne Russell</span>
@@ -55,7 +55,7 @@ export default function Feedback() {
       <div>
         <div className="flex gap-2 ">
           <Avatar className="w-8 h-8">
-            <AvatarImage src="https://github.com/shadcn.png" />
+            <AvatarImage src="https://avatar.iran.liara.run/public/48" />
             <AvatarFallback>CN</AvatarFallback>
           </Avatar>{" "}
           <span>Devon Lane</span>
