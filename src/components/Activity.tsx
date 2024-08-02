@@ -3,6 +3,8 @@ import { type ChartConfig } from "@/components/ui/chart";
 import { Bar, BarChart, CartesianGrid, XAxis } from "recharts";
 import { ChartTooltip, ChartTooltipContent } from "@/components/ui/chart";
 import { ChartContainer } from "@/components/ui/chart";
+import { Badge } from "@/components/ui/badge";
+import { MdOutlineArrowDropDown } from "react-icons/md";
 
 export default function Activity() {
   const chartData = [
@@ -34,13 +36,21 @@ export default function Activity() {
   const chartConfig = {
     revenue: {
       label: "Revenue",
-      color: "#2563eb",
+      color: "#7294ff",
     },
   } satisfies ChartConfig;
 
   return (
     <div className="bg-[#202028] rounded-lg mt-5 p-4 grid grid-cols-1">
-      <h1 className="text-xl font-bold">Acitivity</h1>
+      <div className="flex justify-between">
+        <h1 className="text-xl font-bold">Acitivity</h1>
+        <Badge
+          variant={"secondary"}
+          className="rounded-full px-2 bg-[#4c4d52] cursor-pointer"
+        >
+          Weekly <MdOutlineArrowDropDown size={20} />
+        </Badge>
+      </div>
       <ChartContainer config={chartConfig} className="min-h-[250px] h-5 w-full">
         <BarChart accessibilityLayer data={chartData}>
           <CartesianGrid vertical={true} />
